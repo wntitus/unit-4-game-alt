@@ -1,0 +1,36 @@
+h1 {
+    font-family: 'Merienda', cursive;
+    font-size: 35px;
+}
+
+header {
+    align-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 35px;
+}
+
+#userNum {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#crystalContainer {
+    align-content: center;
+    margin: auto;
+    margin-top: 15px;
+    border: 3px solid black;
+    height: 120px;
+    width: fit-content;
+}
+
+#crystalBoxOne, #crystalBoxTwo, #crystalBoxThree, #crystalBoxFour {
+    float: left;
+    margin: 7.5px;
+}
+
+#crystalBoxOne:hover, #crystalBoxTwo:hover, #crystalBoxThree:hover, #crystalBoxFour:hover {
+    opacity: .6;
+}
